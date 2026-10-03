@@ -5,7 +5,7 @@
 
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
 }
 
 .footer-info {
@@ -34,10 +34,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.footer-social {
-  margin-right: 80px;
 }
 
 .footer-social-title {
@@ -79,6 +75,11 @@
   fill: #f4f4fd;
 }
 
+/* Subscribe Section */
+.footer-subscribe {
+  margin-left: auto;
+}
+
 .footer-subscribe-title {
   margin-bottom: 16px;
   font-weight: 500;
@@ -98,7 +99,7 @@
   height: 40px;
   padding-left: 16px;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: transparent;
@@ -114,7 +115,7 @@
 }
 
 .footer-input:focus {
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
 }
 
 .footer-btn {
@@ -138,7 +139,7 @@
 
 .footer-btn:hover,
 .footer-btn:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-btn-icon {
